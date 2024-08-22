@@ -109,15 +109,6 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   .container {max-width: 1200px;}
 }
 
-/* Logo - phones*/
-
-@media only screen and (max-width: 600px) {
-  .logo img {
-      width: 100%;
-      height: auto;
-  }
-}
-
 /*------------------------------------------------------------------
 [ Slick2 ]*/
 .slick-slide {outline: none !important;}
@@ -2195,7 +2186,7 @@ input.num-product::-webkit-inner-spin-button {
 }
 
 .stext-104 {
-  font-family: "Oswald", sans-serif;
+font-family: "Oswald", sans-serif;
   font-size: 14px;
   line-height: 1.466667;
 }
