@@ -112,7 +112,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 /* Logo - phones*/
 
 @media only screen and (max-width: 600px) {
-  .item-slick1 img {
+  .logo img {
       width: 100%;
       height: auto;
   }
@@ -1240,24 +1240,29 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 
 
 /*//////////////////////////////////////////////////////////////////
-/* Ensure logo inside item-slick1 is responsive */
-.item-slick1 .logo img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
+[ Slick1 ]*/
+.wrap-slick1 {
+  position: relative;
 }
 
-/* Adjust the logo size on mobile screens */
+.item-slick1 {
+  height: calc(100vh - 40px);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.rs1-slick1 .item-slick1 {
+  height: calc(100vh - 84px);
+}
+
+.rs2-slick1 .item-slick1 {
+  height: 100vh;
+}
+
 @media (max-width: 991px) {
   .item-slick1 {
-      height: auto !important; /* Make sure the height is flexible */
-      padding: 10px; /* Optional: add padding */
-  }
-
-  .item-slick1 .logo img {
-      width: 80%; /* Scale down logo for smaller screens */
-      height: auto;
+    height: calc(100vh - 70px) !important;
   }
 }
 
