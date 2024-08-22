@@ -112,7 +112,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 /* Logo - phones*/
 
 @media only screen and (max-width: 600px) {
-  .logo img {
+  .item-slick1 img {
       width: 100%;
       height: auto;
   }
